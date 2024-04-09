@@ -1,0 +1,365 @@
+[RemoteTestNG] detected TestNG version 7.9.0
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+List of trekking places 6 hours from Chennai:
+Nandi Hills	--->	₹34,364
+Paro      	--->	₹17,500
+Matheran  	--->	₹17,017
+Kathmandu 	--->	₹31,500
+Pokhara   	--->	₹24,500
+Sapa      	--->	₹28,000
+List of packages ---> 40
+	Package Name                                            --->	Cost /Person
+Swiss & Italian Spotlight - Summer (Guided Tour)         	--->	₹1,78,315
+European Bonanza Group Departure 2024                    	--->	₹3,05,923
+Taste of Italy Swiss & Paris Group Departure 2024        	--->	₹2,70,758
+Gems of Europe - Summer (Guided Tour)                    	--->	₹2,60,395
+Fab Holiday to Switzerland & Italy - Summer (Guided Tour)	--->	₹2,31,062
+Charming Italy & Switzerland Summer- Guided Tour         	--->	₹2,43,493
+Fabulous Tales of Europe- Guided Tour                    	--->	₹3,25,975
+Amazing Italy with Eastern Europe Capitals- Guided Tour  	--->	₹2,32,837
+Across Europe in 17 Days - Summer (Guided Tour)          	--->	₹3,61,098
+Serene Europe Holiday Summer- Guided Tour                	--->	₹2,95,155
+Treasures of Italy Summer (Guided Tour)                  	--->	₹1,44,537
+European Grandeur - Summer (Guided Tour)                 	--->	₹2,26,767
+Beautiful Italy Holiday                                  	--->	₹1,79,527
+Italian Dreams                                           	--->	₹2,24,364
+Fantastic Rome Trip                                      	--->	₹1,26,915
+Alluring France, Swiss & Italy Trip                      	--->	₹3,90,639
+Romantic Italy Escape                                    	--->	₹2,64,432
+Beautiful Italy with Eurail Pass                         	--->	₹2,02,349
+Incredible Italy Trip                                    	--->	₹1,89,810
+European Gems Summer- Guided Tour                        	--->	₹2,88,156
+Italian Delight Group Departure 2024                     	--->	₹2,03,734
+Best of Italy & Swiss Group Departure 2024               	--->	₹2,25,445
+Best of Europe Group Departure 2024                      	--->	₹3,42,377
+Rome, Florence & Venice (Escorted Tour)                  	--->	₹1,83,602
+Essentially Italy - Summer (Guided Tour)                 	--->	₹1,88,203
+Splendid Italy with Milan- Guided Tour                   	--->	₹1,51,054
+Perfect Italy & Austria Vacation - Summer (Guided Tour)  	--->	₹1,59,880
+Charming Italy & Switzerland Summer- Guided Tour         	--->	₹2,14,156
+European Escapade Summer - Guided Tour                   	--->	₹2,04,435
+European Grandeur - Summer (Guided Tour)                 	--->	₹2,55,275
+Swiss & Italian Highlights - Summer (Guided Tour)        	--->	₹1,96,509
+European Grandeur - Summer (Guided Tour)                 	--->	₹2,55,275
+Perfect Italy & Austria Vacation - Summer (Guided Tour)  	--->	₹1,79,292
+Essentially Italy - Summer (Guided Tour)                 	--->	₹2,15,304
+Epic Trip to Italy - Soulmate Special                    	--->	₹2,05,377
+Magnificent Spain & Italy Holiday                        	--->	₹2,71,538
+Epic Italy & Austria Holiday                             	--->	₹2,98,901
+Exciting Italy & Dubai Escape                            	--->	₹2,26,251
+Magnificent Europe Holiday                               	--->	₹3,32,906
+Splendid Europe Vacay                                    	--->	₹2,45,373
+
+@tag
+Scenario Outline: Validation using Invalid details               # Features/GiftCard.feature:43
+  Given user navigated to MakeMyTrip page                        # stepDefinitions.GiftCardPageStepDef.user_navigated_to_make_my_trip_page()
+
+    Embedding Validation using Invalid details [image/png 1339122 bytes]
+
+  When user clicks on GiftCards button                           # stepDefinitions.GiftCardPageStepDef.user_clicks_on_button()
+
+    Embedding Validation using Invalid details [image/png 756724 bytes]
+
+  And user selects Occasions category                            # stepDefinitions.GiftCardPageStepDef.user_selects_category()
+
+    Embedding Validation using Invalid details [image/png 748367 bytes]
+
+  And user clicks on StayCation Gift Card gift card              # stepDefinitions.GiftCardPageStepDef.user_clicks_on_gift_card()
+
+    Embedding Validation using Invalid details [image/png 293650 bytes]
+
+  Then validate page title                                       # stepDefinitions.GiftCardPageStepDef.validate_page_title()
+
+    Embedding Validation using Invalid details [image/png 293650 bytes]
+
+  When user fills in 3267                                        # stepDefinitions.GiftCardPageStepDef.user_fills_in(java.lang.Integer)
+
+    Embedding Validation using Invalid details [image/png 445154 bytes]
+
+  And user clicks Email                                          # stepDefinitions.GiftCardPageStepDef.user_clicks_email()
+
+    Embedding Validation using Invalid details [image/png 444549 bytes]
+
+  And increases 2                                                # stepDefinitions.GiftCardPageStepDef.increases(java.lang.Integer)
+
+    Embedding Validation using Invalid details [image/png 446543 bytes]
+
+  And selects Send to different recipients slider button         # stepDefinitions.GiftCardPageStepDef.selects_send_to_different_recipients_slider_button()
+
+    Embedding Validation using Invalid details [image/png 448606 bytes]
+
+  And fills in "name1" and "name2" details                       # stepDefinitions.GiftCardPageStepDef.fills_in_and_details(java.lang.String,java.lang.String)
+
+    Embedding Validation using Invalid details [image/png 455688 bytes]
+
+  And fills in "Vasco Da Gamer" , "9876543210" and "appleofeden" # stepDefinitions.GiftCardPageStepDef.fills_in_and(java.lang.String,java.lang.String,java.lang.String)
+
+    Embedding Validation using Invalid details [image/png 425816 bytes]
+
+  Then check whether the displayed details are same as input     # stepDefinitions.GiftCardPageStepDef.check_whether_the_displayed_details_are_same_as_input()
+
+    Embedding Validation using Invalid details [image/png 235220 bytes]
+
+  When user fills in "FUHREEE"                                   # stepDefinitions.GiftCardPageStepDef.user_fills_in(java.lang.String)
+
+    Embedding Validation using Invalid details [image/png 208614 bytes]
+
+  And user clicks the Buy Now button                             # stepDefinitions.GiftCardPageStepDef.user_clicks_the_buy_now_button()
+
+    Embedding Validation using Invalid details [image/png 192664 bytes]
+
+  Then validate the error messages                               # stepDefinitions.GiftCardPageStepDef.capture_the_error_messages()
+
+    Embedding Validation using Invalid details [image/png 116704 bytes]
+
+
+@tag
+Scenario Outline: Validation using Invalid details           # Features/GiftCard.feature:44
+  Given user navigated to MakeMyTrip page                    # stepDefinitions.GiftCardPageStepDef.user_navigated_to_make_my_trip_page()
+
+    Embedding Validation using Invalid details [image/png 1171794 bytes]
+
+  When user clicks on GiftCards button                       # stepDefinitions.GiftCardPageStepDef.user_clicks_on_button()
+
+    Embedding Validation using Invalid details [image/png 756724 bytes]
+
+  And user selects Occasions category                        # stepDefinitions.GiftCardPageStepDef.user_selects_category()
+
+    Embedding Validation using Invalid details [image/png 748367 bytes]
+
+  And user clicks on StayCation Gift Card gift card          # stepDefinitions.GiftCardPageStepDef.user_clicks_on_gift_card()
+
+    Embedding Validation using Invalid details [image/png 293650 bytes]
+
+  Then validate page title                                   # stepDefinitions.GiftCardPageStepDef.validate_page_title()
+
+    Embedding Validation using Invalid details [image/png 445152 bytes]
+
+  When user fills in 20000                                   # stepDefinitions.GiftCardPageStepDef.user_fills_in(java.lang.Integer)
+
+    Embedding Validation using Invalid details [image/png 446518 bytes]
+
+  And user clicks Email                                      # stepDefinitions.GiftCardPageStepDef.user_clicks_email()
+
+    Embedding Validation using Invalid details [image/png 445819 bytes]
+
+  And increases 2                                            # stepDefinitions.GiftCardPageStepDef.increases(java.lang.Integer)
+
+    Embedding Validation using Invalid details [image/png 447626 bytes]
+
+  And selects Send to different recipients slider button     # stepDefinitions.GiftCardPageStepDef.selects_send_to_different_recipients_slider_button()
+
+    Embedding Validation using Invalid details [image/png 449814 bytes]
+
+  And fills in "987" and "345" details                       # stepDefinitions.GiftCardPageStepDef.fills_in_and_details(java.lang.String,java.lang.String)
+
+    Embedding Validation using Invalid details [image/png 456825 bytes]
+
+  And fills in "PolkaMan" , "3242" and "123nji"              # stepDefinitions.GiftCardPageStepDef.fills_in_and(java.lang.String,java.lang.String,java.lang.String)
+
+    Embedding Validation using Invalid details [image/png 411109 bytes]
+
+  Then check whether the displayed details are same as input # stepDefinitions.GiftCardPageStepDef.check_whether_the_displayed_details_are_same_as_input()
+
+    Embedding Validation using Invalid details [image/png 217088 bytes]
+
+  When user fills in "polkapolka"                            # stepDefinitions.GiftCardPageStepDef.user_fills_in(java.lang.String)
+
+    Embedding Validation using Invalid details [image/png 208504 bytes]
+
+  And user clicks the Buy Now button                         # stepDefinitions.GiftCardPageStepDef.user_clicks_the_buy_now_button()
+
+    Embedding Validation using Invalid details [image/png 208100 bytes]
+
+  Then validate the error messages                           # stepDefinitions.GiftCardPageStepDef.capture_the_error_messages()
+
+    Embedding Validation using Invalid details [image/png 211987 bytes]
+
+
+@tag
+Scenario Outline: Validation using Invalid details             # Features/GiftCard.feature:45
+  Given user navigated to MakeMyTrip page                      # stepDefinitions.GiftCardPageStepDef.user_navigated_to_make_my_trip_page()
+
+    Embedding Validation using Invalid details [image/png 1271281 bytes]
+
+  When user clicks on GiftCards button                         # stepDefinitions.GiftCardPageStepDef.user_clicks_on_button()
+
+    Embedding Validation using Invalid details [image/png 767872 bytes]
+
+  And user selects Occasions category                          # stepDefinitions.GiftCardPageStepDef.user_selects_category()
+
+    Embedding Validation using Invalid details [image/png 764034 bytes]
+
+  And user clicks on StayCation Gift Card gift card            # stepDefinitions.GiftCardPageStepDef.user_clicks_on_gift_card()
+
+    Embedding Validation using Invalid details [image/png 311444 bytes]
+
+  Then validate page title                                     # stepDefinitions.GiftCardPageStepDef.validate_page_title()
+
+    Embedding Validation using Invalid details [image/png 462752 bytes]
+
+  When user fills in 5520                                      # stepDefinitions.GiftCardPageStepDef.user_fills_in(java.lang.Integer)
+
+    Embedding Validation using Invalid details [image/png 462774 bytes]
+
+  And user clicks Email                                        # stepDefinitions.GiftCardPageStepDef.user_clicks_email()
+
+    Embedding Validation using Invalid details [image/png 461839 bytes]
+
+  And increases 2                                              # stepDefinitions.GiftCardPageStepDef.increases(java.lang.Integer)
+
+    Embedding Validation using Invalid details [image/png 463679 bytes]
+
+  And selects Send to different recipients slider button       # stepDefinitions.GiftCardPageStepDef.selects_send_to_different_recipients_slider_button()
+
+    Embedding Validation using Invalid details [image/png 465613 bytes]
+
+  And fills in "guy1" and "guy2" details                       # stepDefinitions.GiftCardPageStepDef.fills_in_and_details(java.lang.String,java.lang.String)
+
+    Embedding Validation using Invalid details [image/png 471565 bytes]
+
+  And fills in "Jack Sparrow" , "9753186420" and "iladamuerte" # stepDefinitions.GiftCardPageStepDef.fills_in_and(java.lang.String,java.lang.String,java.lang.String)
+
+    Embedding Validation using Invalid details [image/png 323739 bytes]
+
+  Then check whether the displayed details are same as input   # stepDefinitions.GiftCardPageStepDef.check_whether_the_displayed_details_are_same_as_input()
+
+    Embedding Validation using Invalid details [image/png 222185 bytes]
+
+  When user fills in "KRAKEN"                                  # stepDefinitions.GiftCardPageStepDef.user_fills_in(java.lang.String)
+
+    Embedding Validation using Invalid details [image/png 222411 bytes]
+
+  And user clicks the Buy Now button                           # stepDefinitions.GiftCardPageStepDef.user_clicks_the_buy_now_button()
+
+    Embedding Validation using Invalid details [image/png 163826 bytes]
+
+  Then validate the error messages                             # stepDefinitions.GiftCardPageStepDef.capture_the_error_messages()
+
+    Embedding Validation using Invalid details [image/png 116186 bytes]
+
+
+@tag
+Scenario Outline: Validation using Valid details                           # Features/GiftCard.feature:66
+  Given user navigated to MakeMyTrip page                                  # stepDefinitions.GiftCardPageStepDef.user_navigated_to_make_my_trip_page()
+
+    Embedding Validation using Valid details [image/png 557103 bytes]
+
+  When user clicks on GiftCards button                                     # stepDefinitions.GiftCardPageStepDef.user_clicks_on_button()
+
+    Embedding Validation using Valid details [image/png 827912 bytes]
+
+  And user selects Occasions category                                      # stepDefinitions.GiftCardPageStepDef.user_selects_category()
+
+    Embedding Validation using Valid details [image/png 823991 bytes]
+
+  And user clicks on StayCation Gift Card gift card                        # stepDefinitions.GiftCardPageStepDef.user_clicks_on_gift_card()
+
+    Embedding Validation using Valid details [image/png 311444 bytes]
+
+  Then validate page title                                                 # stepDefinitions.GiftCardPageStepDef.validate_page_title()
+
+    Embedding Validation using Valid details [image/png 462752 bytes]
+
+  When user fills in 2000                                                  # stepDefinitions.GiftCardPageStepDef.user_fills_in(java.lang.Integer)
+
+    Embedding Validation using Valid details [image/png 462844 bytes]
+
+  And user clicks Email                                                    # stepDefinitions.GiftCardPageStepDef.user_clicks_email()
+
+    Embedding Validation using Valid details [image/png 462113 bytes]
+
+  And increases 2                                                          # stepDefinitions.GiftCardPageStepDef.increases(java.lang.Integer)
+
+    Embedding Validation using Valid details [image/png 463908 bytes]
+
+  And selects Send to different recipients slider button                   # stepDefinitions.GiftCardPageStepDef.selects_send_to_different_recipients_slider_button()
+
+    Embedding Validation using Valid details [image/png 465803 bytes]
+
+  And fills in "name1@gmail.com" and "name2@gmail.com" details             # stepDefinitions.GiftCardPageStepDef.fills_in_and_details(java.lang.String,java.lang.String)
+
+    Embedding Validation using Valid details [image/png 476882 bytes]
+
+  And fills in "Vasco Da Gamer" , "9876543210" and "appleofeden@gmail.com" # stepDefinitions.GiftCardPageStepDef.fills_in_and(java.lang.String,java.lang.String,java.lang.String)
+
+    Embedding Validation using Valid details [image/png 449589 bytes]
+
+  Then check whether the displayed details are same as input               # stepDefinitions.GiftCardPageStepDef.check_whether_the_displayed_details_are_same_as_input()
+
+    Embedding Validation using Valid details [image/png 260093 bytes]
+
+  When user clicks the Buy Now button                                      # stepDefinitions.GiftCardPageStepDef.user_clicks_the_buy_now_button()
+
+    Embedding Validation using Valid details [image/png 220930 bytes]
+
+  Then check if the Payment page is reached                                # stepDefinitions.GiftCardPageStepDef.check_if_the_payment_page_is_reached()
+
+    Embedding Validation using Valid details [image/png 168579 bytes]
+
+
+Scenario Outline: Capturing Lowest charge of SUV cab                       # Features/OutstationCab.feature:32
+  Given user on the homepage                                               # stepDefinitions.OutstationCabStepDef.user_on_the_homepage()
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 1338101 bytes]
+
+  And user on the Cabs tab                                                 # stepDefinitions.OutstationCabStepDef.user_on_the_cabs_tab()
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 860867 bytes]
+
+  When user fill in "Delhi" and "Manali, Himachal Pradesh, India" location # stepDefinitions.OutstationCabStepDef.user_fill_in_from_and_to_location(java.lang.String,java.lang.String)
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 646820 bytes]
+
+After Clicked
+  And user fill in 23 and 06:30:"PM" details                               # stepDefinitions.OutstationCabStepDef.user_fill_in_and_details(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 681098 bytes]
+
+  And user clicks Search button                                            # stepDefinitions.OutstationCabStepDef.user_clicks_search_button()
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 97796 bytes]
+
+  And user selects "SUV" option                                            # stepDefinitions.OutstationCabStepDef.user_selects_filter_option(java.lang.String)
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 243758 bytes]
+
+Xylo, Ertiga	--->	₹ 8,794
+  Then capture the top result                                              # stepDefinitions.OutstationCabStepDef.capture_the_top_result()
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 243708 bytes]
+
+
+Scenario Outline: Capturing Lowest charge of SUV cab                    # Features/OutstationCab.feature:33
+  Given user on the homepage                                            # stepDefinitions.OutstationCabStepDef.user_on_the_homepage()
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 1415014 bytes]
+
+  And user on the Cabs tab                                              # stepDefinitions.OutstationCabStepDef.user_on_the_cabs_tab()
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 811200 bytes]
+
+  When user fill in "Hyderabad" and "Hosur, Tamil Nadu, India" location # stepDefinitions.OutstationCabStepDef.user_fill_in_from_and_to_location(java.lang.String,java.lang.String)
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 716228 bytes]
+
+After Clicked
+  And user fill in 15 and 07:40:"AM" details                            # stepDefinitions.OutstationCabStepDef.user_fill_in_and_details(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String)
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 678856 bytes]
+
+  And user clicks Search button                                         # stepDefinitions.OutstationCabStepDef.user_clicks_search_button()
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 105693 bytes]
+
+  And user selects "SEDAN" option                                       # stepDefinitions.OutstationCabStepDef.user_selects_filter_option(java.lang.String)
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 236360 bytes]
+
+Dzire, Etios	--->	₹ 10,549
+  Then capture the top result                                           # stepDefinitions.OutstationCabStepDef.capture_the_top_result()
+
+    Embedding Capturing Lowest charge of SUV cab [image/png 237808 bytes]

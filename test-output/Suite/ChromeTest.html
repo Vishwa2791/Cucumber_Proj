@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 08 16:39:52 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>134 seconds (134720 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC_001_WhereToGo.navigateToHomePage()'><b>navigateToHomePage</b><br>Test class: testCases.TC_001_WhereToGo</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_001_WhereToGo@1ff4931d</td></tr>
+<tr>
+<td title='testCases.TC_002__HolidayPackage.navigate_to_home_Page()'><b>navigate_to_home_Page</b><br>Test class: testCases.TC_002__HolidayPackage</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_002__HolidayPackage@4c178a76</td></tr>
+<tr>
+<td title='testCases.TC_001_WhereToGo.click_where2Go()'><b>click_where2Go</b><br>Test class: testCases.TC_001_WhereToGo</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_001_WhereToGo@1ff4931d</td></tr>
+<tr>
+<td title='testCases.TC_002__HolidayPackage.click_opt_Italy()'><b>click_opt_Italy</b><br>Test class: testCases.TC_002__HolidayPackage</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_002__HolidayPackage@4c178a76</td></tr>
+<tr>
+<td title='testCases.TC_001_WhereToGo.click_trekkingHotspots()'><b>click_trekkingHotspots</b><br>Test class: testCases.TC_001_WhereToGo</td>
+<td></td>
+<td>14</td>
+<td>testCases.TC_001_WhereToGo@1ff4931d</td></tr>
+<tr>
+<td title='testCases.TC_002__HolidayPackage.close_Popup_If_Display()'><b>close_Popup_If_Display</b><br>Test class: testCases.TC_002__HolidayPackage</td>
+<td></td>
+<td>10</td>
+<td>testCases.TC_002__HolidayPackage@4c178a76</td></tr>
+<tr>
+<td title='testCases.TC_002__HolidayPackage.navigate_to_HolidayPage()'><b>navigate_to_HolidayPage</b><br>Test class: testCases.TC_002__HolidayPackage</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_002__HolidayPackage@4c178a76</td></tr>
+<tr>
+<td title='testCases.TC_001_WhereToGo.set_Travel_Duration()'><b>set_Travel_Duration</b><br>Test class: testCases.TC_001_WhereToGo</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_001_WhereToGo@1ff4931d</td></tr>
+<tr>
+<td title='testCases.TC_002__HolidayPackage.select_all_Packages()'><b>select_all_Packages</b><br>Test class: testCases.TC_002__HolidayPackage</td>
+<td></td>
+<td>55</td>
+<td>testCases.TC_002__HolidayPackage@4c178a76</td></tr>
+<tr>
+<td title='testCases.TC_002__HolidayPackage.click_opt_AllPackages()'><b>click_opt_AllPackages</b><br>Test class: testCases.TC_002__HolidayPackage</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_002__HolidayPackage@4c178a76</td></tr>
+<tr>
+<td title='testCases.TC_001_WhereToGo.the_user_navigated_to_trekDestination()'><b>the_user_navigated_to_trekDestination</b><br>Test class: testCases.TC_001_WhereToGo</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_001_WhereToGo@1ff4931d</td></tr>
+<tr>
+<td title='testCases.TC_001_WhereToGo.printPlacePrice()'><b>printPlacePrice</b><br>Test class: testCases.TC_001_WhereToGo</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC_001_WhereToGo@1ff4931d</td></tr>
+<tr>
+<td title='testCases.TC_001_WhereToGo.setCity()'><b>setCity</b><br>Test class: testCases.TC_001_WhereToGo</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_001_WhereToGo@1ff4931d</td></tr>
+<tr>
+<td title='testCases.TC_002__HolidayPackage.verifyPage()'><b>verifyPage</b><br>Test class: testCases.TC_002__HolidayPackage</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_002__HolidayPackage@4c178a76</td></tr>
+<tr>
+<td title='testCases.TC_001_WhereToGo.selectCity()'><b>selectCity</b><br>Test class: testCases.TC_001_WhereToGo</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_001_WhereToGo@1ff4931d</td></tr>
+<tr>
+<td title='testCases.TC_001_WhereToGo.the_user_navigated_to_where2Go_page()'><b>the_user_navigated_to_where2Go_page</b><br>Test class: testCases.TC_001_WhereToGo</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_001_WhereToGo@1ff4931d</td></tr>
+<tr>
+<td title='testCases.TC_002__HolidayPackage.click_opt_Explore_Europe()'><b>click_opt_Explore_Europe</b><br>Test class: testCases.TC_002__HolidayPackage</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_002__HolidayPackage@4c178a76</td></tr>
+</table><p>
+</body>
+</html>

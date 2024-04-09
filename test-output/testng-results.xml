@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-08T15:48:57 IST" name="Suite" finished-at="2024-04-08T15:54:55 IST" duration-ms="357807">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@757acd7b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-08T15:48:57 IST" name="ChromeTest" finished-at="2024-04-08T15:50:44 IST" duration-ms="106652">
+      <class name="testCases.TC_002__HolidayPackage">
+        <test-method signature="navigate_to_HolidayPage()[pri:1, instance:testCases.TC_002__HolidayPackage@4c178a76]" started-at="2024-04-08T15:49:35 IST" name="navigate_to_HolidayPage" finished-at="2024-04-08T15:49:35 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_HolidayPage -->
+        <test-method signature="click_opt_Explore_Europe()[pri:2, instance:testCases.TC_002__HolidayPackage@4c178a76]" started-at="2024-04-08T15:49:35 IST" name="click_opt_Explore_Europe" finished-at="2024-04-08T15:49:36 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_opt_Explore_Europe -->
+        <test-method signature="click_opt_Italy()[pri:3, instance:testCases.TC_002__HolidayPackage@4c178a76]" started-at="2024-04-08T15:49:36 IST" name="click_opt_Italy" finished-at="2024-04-08T15:49:36 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_opt_Italy -->
+        <test-method signature="verifyPage()[pri:4, instance:testCases.TC_002__HolidayPackage@4c178a76]" started-at="2024-04-08T15:49:39 IST" name="verifyPage" finished-at="2024-04-08T15:49:42 IST" duration-ms="2546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method signature="close_Popup_If_Display()[pri:5, instance:testCases.TC_002__HolidayPackage@4c178a76]" started-at="2024-04-08T15:49:42 IST" name="close_Popup_If_Display" finished-at="2024-04-08T15:49:52 IST" duration-ms="10075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Popup_If_Display -->
+        <test-method signature="click_opt_AllPackages()[pri:6, instance:testCases.TC_002__HolidayPackage@4c178a76]" started-at="2024-04-08T15:49:52 IST" name="click_opt_AllPackages" finished-at="2024-04-08T15:49:53 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_opt_AllPackages -->
+        <test-method signature="select_all_Packages()[pri:7, instance:testCases.TC_002__HolidayPackage@4c178a76]" started-at="2024-04-08T15:49:53 IST" name="select_all_Packages" finished-at="2024-04-08T15:50:38 IST" duration-ms="44732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_all_Packages -->
+        <test-method signature="navigate_to_home_Page()[pri:8, instance:testCases.TC_002__HolidayPackage@4c178a76]" started-at="2024-04-08T15:50:38 IST" name="navigate_to_home_Page" finished-at="2024-04-08T15:50:38 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_home_Page -->
+      </class> <!-- testCases.TC_002__HolidayPackage -->
+      <class name="testCases.TC_001_WhereToGo">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:48:58 IST" name="driverSetup" finished-at="2024-04-08T15:49:10 IST" duration-ms="12027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="click_where2Go()[pri:1, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:49:10 IST" name="click_where2Go" finished-at="2024-04-08T15:49:10 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_where2Go -->
+        <test-method signature="the_user_navigated_to_where2Go_page()[pri:2, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:49:15 IST" name="the_user_navigated_to_where2Go_page" finished-at="2024-04-08T15:49:15 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- the_user_navigated_to_where2Go_page -->
+        <test-method signature="click_trekkingHotspots()[pri:3, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:49:15 IST" name="click_trekkingHotspots" finished-at="2024-04-08T15:49:21 IST" duration-ms="6268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_trekkingHotspots -->
+        <test-method signature="the_user_navigated_to_trekDestination()[pri:4, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:49:22 IST" name="the_user_navigated_to_trekDestination" finished-at="2024-04-08T15:49:22 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- the_user_navigated_to_trekDestination -->
+        <test-method signature="selectCity()[pri:5, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:49:22 IST" name="selectCity" finished-at="2024-04-08T15:49:23 IST" depends-on-methods="testCases.TC_001_WhereToGo.the_user_navigated_to_trekDestination" duration-ms="1415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCity -->
+        <test-method signature="set_Travel_Duration()[pri:6, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:49:24 IST" name="set_Travel_Duration" finished-at="2024-04-08T15:49:27 IST" depends-on-methods="testCases.TC_001_WhereToGo.selectCity" duration-ms="3026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_Travel_Duration -->
+        <test-method signature="setCity()[pri:7, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:49:27 IST" name="setCity" finished-at="2024-04-08T15:49:29 IST" depends-on-methods="testCases.TC_001_WhereToGo.set_Travel_Duration" duration-ms="2522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCity -->
+        <test-method signature="printPlacePrice()[pri:8, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:49:30 IST" name="printPlacePrice" finished-at="2024-04-08T15:49:34 IST" depends-on-methods="testCases.TC_001_WhereToGo.setCity" duration-ms="4298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printPlacePrice -->
+        <test-method signature="navigateToHomePage()[pri:9, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:49:34 IST" name="navigateToHomePage" finished-at="2024-04-08T15:49:34 IST" depends-on-methods="testCases.TC_001_WhereToGo.the_user_navigated_to_where2Go_page" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_WhereToGo@1ff4931d]" started-at="2024-04-08T15:50:38 IST" name="tearDown" finished-at="2024-04-08T15:50:44 IST" duration-ms="5578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_WhereToGo -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-04-08T15:50:45 IST" name="CucumberTests" finished-at="2024-04-08T15:54:55 IST" duration-ms="250457">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@757acd7b]" started-at="2024-04-08T15:50:45 IST" name="setUpClass" finished-at="2024-04-08T15:50:45 IST" duration-ms="505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a5eb613]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@757acd7b]" started-at="2024-04-08T15:50:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-08T15:51:04 IST" duration-ms="19407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation using Invalid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation of GiftCards Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@757acd7b]" started-at="2024-04-08T15:51:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-08T15:51:41 IST" duration-ms="36305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation using Invalid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation of GiftCards Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@757acd7b]" started-at="2024-04-08T15:51:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-08T15:52:18 IST" duration-ms="37066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation using Invalid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation of GiftCards Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@757acd7b]" started-at="2024-04-08T15:52:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-08T15:52:41 IST" duration-ms="23174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation using Valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validation of GiftCards Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@757acd7b]" started-at="2024-04-08T15:52:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-08T15:53:27 IST" duration-ms="46453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Capturing Lowest charge of SUV cab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book an outstation cab"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@757acd7b]" started-at="2024-04-08T15:53:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-08T15:53:54 IST" duration-ms="26891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Capturing Lowest charge of SUV cab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Book an outstation cab"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@757acd7b]" started-at="2024-04-08T15:53:54 IST" name="tearDownClass" finished-at="2024-04-08T15:54:55 IST" duration-ms="60638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- CucumberTests -->
+  </suite> <!-- Suite -->
+</testng-results>
